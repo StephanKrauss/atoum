@@ -43,6 +43,6 @@
 		}
 
 		public function start(){
-			return 'Hallo WeltXXX';
+			return 'Hallo Welt';
 		}
 	}

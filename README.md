@@ -10,4 +10,9 @@
 + Aufruf im Terminal
     + c:/xampp/htdocs/atoum/vendor/bin/atoum.bat --loop -d tests/units/
     + unter Tools **'fest verdrahten'**
+    
+
+#### funktioniert
++ c:/xampp/htdocs/atoum/vendor/bin/atoum.bat --loop -d tests/units/
+    
 
