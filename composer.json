@@ -18,7 +18,8 @@
   "require-dev": {
       "atoum/atoum": "^3.3",
       "phpmd/phpmd": "^2.6",
-      "atoum/json-schema-extension": "^2.1"
+      "atoum/json-schema-extension": "^2.1",
+      "atoum/stubs": "^2.6"
   },
   "autoload": {
         "psr-4": {
