@@ -13,6 +13,6 @@
     
 
 #### funktioniert
-+ c:/xampp/htdocs/atoum/vendor/bin/atoum.bat --loop -d tests/units/
++ c:/xampp/htdocs/atoum/vendor/bin/atoum.bat --loop -d tests/units/ -udr -ulr -fivm
     
 
