@@ -20,6 +20,24 @@
 			$this->if($this->newTestedInstance)
 				->then
 					->string($this->testedInstance->start())
-						->isEqualTo('Hallo Welt');
+						->isEqualTo('Hallo Welt')
+					->and
+						->string($this->testedInstance->start())
+							->isNotEqualTo('BlaBlub');
+		}
+
+		public function myInt(){
+			$this
+				->if($array = array(uniqid()))
+				->when(
+					function() use ($array) {
+						unset($array[0]);
+						// return false;
+					}
+				)
+				->then
+					->sizeOf($array)
+						->isZero()
+			;
 		}
 	}

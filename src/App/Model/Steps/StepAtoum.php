@@ -18,4 +18,8 @@
 		public function start(){
 			return 'Hallo Welt';
 		}
+
+		public function myInt(){
+			return 22;
+		}
 	}
